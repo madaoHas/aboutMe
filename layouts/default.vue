@@ -6,8 +6,10 @@
       <NuxtLink to="/whyProgrammed">Почему программирование?</NuxtLink>
       <NuxtLink to="/interestingCSS">Интересный CSS</NuxtLink>
     </header>
-    Мой проект: <NuxtLink to="https://github.com/madaoHas/aboutMe">Ссылка на GitHub</NuxtLink>
     <slot />
+    <footer>
+      <NuxtLink to="https://github.com/madaoHas/aboutMe">Ссылка на GitHub</NuxtLink>
+    </footer>
   </div>
 </template>
 
@@ -28,9 +30,23 @@ header {
 header a {
   text-decoration: none;
   color: whitesmoke;
+  font-family: Gill Sans;
 }
 header a:hover {
   color: gray;
+}
+
+footer {
+  font-family: Gill Sans;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #1B1B1B;
+  padding: 10px;
+}
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

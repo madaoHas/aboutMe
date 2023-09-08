@@ -14,6 +14,7 @@
     "nuxt": "^3.7.1"
   },
   "dependencies": {
-    "nuxt-buefy": "^0.4.25"
+    "nuxt-buefy": "^0.4.25",
+    "nuxt-start": "^2.17.1"
   }
 }

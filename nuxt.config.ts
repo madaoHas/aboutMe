@@ -8,7 +8,7 @@
 // })
 
 export default {
-  generate: {
-    fallback: true
+  nitro: {
+    preset: 'cleavr'
   }
 }

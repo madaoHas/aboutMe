@@ -1,5 +1,4 @@
 <template>
-  <div class="main">
     <section class="container">
       <h2>Обо мне</h2>
       <div class="aboutMePhoto">
@@ -26,7 +25,6 @@
         </div>
       </div>
     </section>
-  </div>
 </template>
 
 <script lang="ts">
@@ -41,19 +39,13 @@ body {
   background: whitesmoke;
   color: #1B1B1B;
 }
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
-}
 .container {
   font-family: Gill Sans;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 20px;
 }
 .container > div {
   width: 80%;

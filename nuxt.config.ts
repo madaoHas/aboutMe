@@ -10,5 +10,6 @@
 export default {
   nitro: {
     preset: 'cleavr'
-  }
+  },
+  Generate: { fallback: true }
 }
